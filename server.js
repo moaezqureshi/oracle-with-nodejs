@@ -36,12 +36,12 @@ async function Register(username,password) {
 }
 
 app.get('/',(req,res) => {
-    res.writeHead(200,{'content-type' : 'text/html'})
+    res.setHeader('content-type' : 'text/html');
     res.end(login_page);
 })
 
 app.get('/register', (req,res) => {
-    res.writeHead(200,{'content-type' : 'text/html'})
+    res.setHeader('content-type' : 'text/html');
     res.end(register_page);
 })
 
