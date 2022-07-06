@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        #box {
+            flex-direction: column;
+            color: white;
+        }
+        form {
+            background-color: rgb(255, 78, 78);
+            width: 400px;
+            height: 300px;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            padding: 5px 10px;
+        }
+        input {
+            display: block;
+        }
+    </style>
+    <title>Register</title>
+</head>
+<body>
+    <form action="/register_detail" method="get">
+        <div id="box">
+            Username : <input type="text" name="Username" id="username" placeholder="type here username">
+            Password : <input type="text" name="Password" id="password" placeholder="type here password">
+            <input type="submit" value="Register">
+        </div>
+    </form>
+    <a href="/">Login</a>
+</body>
+</html>

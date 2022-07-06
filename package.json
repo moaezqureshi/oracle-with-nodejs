@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "express": "^4.18.1",
     "oracledb": "^5.4.0"
   },
   "scripts": {
@@ -8,7 +9,6 @@
   "name": "oracle-nodejs",
   "version": "1.0.0",
   "main": "server.js",
-  "devDependencies": {},
   "author": "",
   "license": "ISC",
   "description": ""
